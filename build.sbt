@@ -2,11 +2,8 @@ name := """test"""
 
 version := "1.0"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.6"
 
-// Change this to another test framework if you prefer
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+libraryDependencies += "org.specs2" %% "specs2-core" % "3.0.1" % "test"
 
-// Uncomment to use Akka
-//libraryDependencies += "com.typesafe.akka" % "akka-actor_2.11" % "2.3.9"
-
+resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
